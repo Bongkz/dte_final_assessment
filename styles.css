@@ -2,7 +2,9 @@
     margin: 0; padding: 0; 
 }
 
-/* Navigation styles */
+
+/***** NAVIGATION STYLES *****/
+
 
 .nav_div{
     border-bottom: 5px solid black;
@@ -26,6 +28,8 @@
     margin-top: -90px;
     padding-left: 250px;
 }
+
+/* Nav Buttons */
 
 .nav_button{
     font-size: 18px;
@@ -52,11 +56,59 @@
     text-decoration: none;
 }
 
-/* Home Page Styles */
+
+/***** HOME PAGE STYLES *****/
 
 
 /* Carousel*/
+
 .w-100{
     height: 620px;
     object-fit: cover;
+}
+
+/* Home page text/info */
+
+.intro_text{
+    text-align: center;
+    color:black;
+    margin:30px 100px 100px 100px;
+}
+
+.info_text{
+    float: left;
+    margin-left: 130px;
+    margin-right: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+
+.quote{
+    text-align: center;
+    margin: 400px 50px 100px 50px;
+    background-color:#0054a2;
+    color: white;
+    padding: 50px;
+    box-shadow: 5px 10px 8px #888888;
+    font-family: 'Times New Roman';
+}
+
+
+/***** FOOTER STYLES *****/
+
+
+.foot_div{
+    background: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_links1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
