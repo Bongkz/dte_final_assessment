@@ -107,8 +107,21 @@
     justify-content: space-between;
 }
 
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
 .foot_links1{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    color: white;
+    text-decoration: none;
+    justify-content:space-around;
+}
+
+.things{
+    color: white;
+    text-decoration: none;
 }
