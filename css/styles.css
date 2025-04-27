@@ -118,7 +118,7 @@
     flex-direction: column;
     color: white;
     text-decoration: none;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 .things{
