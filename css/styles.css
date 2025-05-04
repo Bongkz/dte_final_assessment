@@ -96,6 +96,55 @@
 }
 
 
+/***** SPORTS PAGE STYLES *****/
+
+
+/** Sports Images **/
+
+.sports_images_div {
+    display: grid;
+    place-items: end;
+}
+  
+  
+.sports_img {
+    width: 330px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 5px 10px 8px #888888;
+    border-width: medium;
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+/** Sports Text **/
+
+.sport_header{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+
+.sport_text_div{
+    float:left;
+    width:770px;
+    height: 960px;
+    background-color: #0054a2;
+    color:white;
+    margin-left:20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
 /***** FOOTER STYLES *****/
 
 
@@ -128,3 +177,5 @@
     color: white;
     text-decoration: none;
 }
+
+
