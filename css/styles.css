@@ -127,6 +127,7 @@
     padding-bottom: 20px;
     padding-right: 5px;
     padding-left: 5px;
+    padding-top: 20px;
     font-size: 25px;
 }
 
@@ -143,7 +144,53 @@
 }
 
 
+/***** STAFF PAGE STYLES *****/
 
+
+/** Staff Images **/
+
+.staffrow1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.staffrow2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.teacher{
+    width: 300px;
+    height: 400px;
+    transition: transform 0.2s;
+}
+
+.teacher:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 10px 8px #888888;
+}
+
+
+/** Staff Text **/
+
+.staff_category{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    border-radius: 10px;
+    color: black;
+}
+
+.staff_heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    color: black;
+}
 
 /***** FOOTER STYLES *****/
 
