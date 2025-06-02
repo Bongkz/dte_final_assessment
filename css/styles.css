@@ -14,6 +14,7 @@
     margin-bottom: 20px;
 }
 
+/* rosmini logo */
 .logo{
     width:300px;
     margin-left:5px;
@@ -31,6 +32,7 @@
 
 /* Nav Buttons */
 
+/* button styles */
 .nav_button{
     font-size: 18px;
     background:#0054a2;
@@ -62,12 +64,13 @@
 
 /* Carousel*/
 
+/* makes images fit on carousel */
 .w-100{
     height: 620px;
     object-fit: cover;
 }
 
-/* Home page text/info */
+/* Home page text/info styles */
 
 .intro_text{
     text-align: center;
@@ -101,12 +104,13 @@
 
 /** Sports Images **/
 
+/* images table */
 .sports_images_div {
     display: grid;
     place-items: end;
 }
   
-  
+/* image scale and fit */
 .sports_img {
     width: 330px;
     height: 300px;
@@ -131,7 +135,7 @@
     font-size: 25px;
 }
 
-
+/* sports text on the left of the page */
 .sport_text_div{
     float:left;
     width:770px;
@@ -149,18 +153,21 @@
 
 /** Staff Images **/
 
+/* staff images row 1 */
 .staffrow1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
+/* staff images row 2 */
 .staffrow2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+/* staff image scale + when hovered over zooms in with a shadow */
 .teacher{
     width: 300px;
     height: 400px;
@@ -175,6 +182,7 @@
 
 /** Staff Text **/
 
+/* makes both text go into middle and category text between images */
 .staff_category{
     text-align: center;
     padding-top: 180px;
@@ -194,7 +202,7 @@
 
 /***** FOOTER STYLES *****/
 
-
+/* adjusts scale of footer size */
 .foot_div{
     background: black;
     color: white;
@@ -207,6 +215,7 @@
     margin: 0;
 }
 
+/* footer links columns */
 .foot_links1{
     display: flex;
     flex-direction: column;
@@ -220,6 +229,7 @@
     text-align: center;
 }
 
+/* makes footer links white instead of blue */
 .footlinkcolor{
     color: white;
     text-decoration: none;
